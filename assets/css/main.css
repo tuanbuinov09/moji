@@ -1,0 +1,135 @@
+.header .img-container{
+    max-width: 170px;
+}
+.swiper-1{
+    width: 74.9%;
+    height: auto;
+}
+.swiper-2{
+    width: 100%;
+    height: auto;
+}
+.swiper-1.mr-2{
+    margin-right: 0.5rem !important;
+}
+.swiper-pagination-bullet{
+    background-color: #333 !important;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    color: #333 !important;
+}
+.transition-colors{
+    transition: .3s !important;
+}
+.swiper-2 .swiper-button-next,
+.swiper-2 .swiper-button-prev{
+    color: #333 !important;
+}
+.h-fit{
+    height: fit-content;
+}
+.item__menu{
+    width: 100%;
+    visibility: hidden;
+    /* transform: translateY(100%); */
+    transition: all .4s ease-out;
+    bottom: -50px !important;
+    opacity: 0;
+    /* z-index: 1; */
+}
+.item-menu-container:hover .item__menu{
+    visibility: visible;
+    /* transform: translateY(0%) !important; */
+    bottom: 0px !important;
+    transition: all .4s ease-out;
+    opacity: 1;
+}
+.z-index-1{
+    z-index: 1;
+}
+/* .swiper-1{
+    z-index: 1 !important;
+} */
+.submenu{
+    visibility: hidden;
+    transition: all .4s ease-out;
+    left: 0;
+    transform: translateY(20px);
+    opacity: 0;
+    z-index: 100;
+}
+.nav__submenu-container:hover .submenu{
+    visibility: visible;
+    transition: all .4s ease-out;
+    opacity: 1;
+    transform: translateY(0%);
+}
+.sign-up-form-container{
+    max-width: 600px;
+}
+.switch-to-sign-in::after,
+.switch-to-sign-up::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(249,168,212);
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+.switch-to-sign-in:hover::after,
+.switch-to-sign-up:hover::after{
+    display: block;
+}
+.active-show-after::after{
+    display: block !important;
+}
+.product-detail__img-container{
+    max-width: 500px;
+    min-width: 44%;
+}
+.product-detail__img-container img{
+    min-width: 100%;
+}
+
+input[type="number"], input[type="button"]{
+    border: 1px solid #d4d4d4;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.input-group input[type='button'] {
+    cursor: pointer;
+  /* transition: all 300ms ease; */
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.input-group input[type='button']:hover{
+    color: #777777;
+}
+.input-group .button-minus,
+.input-group .button-plus {
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d4d4d4;
+}
+
+.input-group .quantity-field {
+    height: 30px;
+    text-align: center;
+    width: 60px;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
