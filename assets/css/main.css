@@ -68,6 +68,24 @@
 .sign-up-form-container{
     max-width: 600px;
 }
+.nav__submenu-container > div:first-child{
+    border-color: transparent;
+}
+.nav__submenu-container > div > a{
+    padding: 0 !important;
+}
+/* .nav__bottom{
+    transform: translateX(0) !important;
+} */
+.nav__submenu-container i{
+    display:none;
+}
+.section__heading{
+    padding-left: 12px;
+}
+.nav__middle-bottom{
+    font-size: 14px;
+}
 .switch-to-sign-in::after,
 .switch-to-sign-up::after{
     content: "";
@@ -91,6 +109,9 @@
 }
 .product-detail__img-container img{
     min-width: 100%;
+}
+.social .social-icon-container:last-child{
+    margin-left: 8px !important;
 }
 
 input[type="number"], input[type="button"]{
