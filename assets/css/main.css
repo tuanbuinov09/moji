@@ -146,7 +146,7 @@ input::-webkit-inner-spin-button {
 .input-group .quantity-field {
     height: 30px;
     text-align: center;
-    width: 60px;
+    width: 50px;
     margin: 0;
 }
 
@@ -202,4 +202,32 @@ input[type="number"] {
 .test-ani.active .bar-bottom{
     top: 28px;
     transform: rotate(-135deg);
+}
+
+.cart-list__container{
+}
+.cart-list__table{
+    width: 100%;
+}
+.cart-list__table tr{
+    border: 1px solid lightgrey;
+}
+tbody::before{
+    display: block;
+    content: "";
+    height: 20px;
+}
+.cart-list__table th, .cart-list__table td{
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.cart-list__table .table-image__container{
+    display: block;
+    margin-left: 8px;
+    margin-right: 0 !important;
+    width: 85px;
+}
+.table-image__container img{
+    width: 100%;
 }
